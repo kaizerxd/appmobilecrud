@@ -1,0 +1,16 @@
+{
+  "build": {
+    "production": {
+      "android": {
+        "gradleCommand": ":app:bundleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    }
+  }
+}
